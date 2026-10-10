@@ -1,3 +1,6 @@
+// Adapted from LemLib (https://github.com/LemLib/LemLib), MIT License.
+// See LICENSE-LemLib.
+
 #include "pros/rtos.hpp"
 #include "AlchLib/util/timer.hpp"
 

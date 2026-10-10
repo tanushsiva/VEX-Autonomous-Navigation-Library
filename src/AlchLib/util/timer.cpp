@@ -1,5 +1,5 @@
 // Adapted from LemLib (https://github.com/LemLib/LemLib), MIT License.
-// See LICENSE-LemLib.
+// See THIRD_PARTY_NOTICES.
 
 #include "pros/rtos.hpp"
 #include "AlchLib/util/timer.hpp"

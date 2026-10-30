@@ -43,14 +43,14 @@ public:
 	double getDuration() const;
 
 	MotionCommand get(double time) const;
+
+	double limitSpeed(double vel, double curvature, double trackwidth, double friction_coefficient) const;
 private:
 	Path path;
 	
 	bool inverted;
 
 	TimeToVelocity time_to_velocity;
-
-	double limitSpeed(double vel, double curvature, double trackwidth, double friction_coefficient) const;
 
 	template <class MAIter>
 	std::vector<double> pass(MAIter begin, MAIter end, bool pass_type) const;
